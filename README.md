@@ -1,8 +1,10 @@
-# React + Vite
+README: TechHouse | Tienda de Tecnología 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción:
+Este proyecto es una tienda de tecnología en línea desarrollada con React y Firebase como base de datos. Fue creado como proyecto final del curso de React de Coderhouse.
 
-Currently, two official plugins are available:
+El objetivo principal es simular la experiencia de compra de un usuario, desde la navegación por el catálogo de productos hasta la finalización de la compra. Los datos de los productos se obtienen directamente de Firebase, y los datos del comprador se recolectan a través de un formulario en el proceso de checkout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologías Utilizadas
+React: Biblioteca JavaScript para construir interfaces de usuario.
+Firebase: Plataforma de desarrollo de aplicaciones que proporciona servicios como base de datos en tiempo real, autenticación y almacenamiento de archivos.

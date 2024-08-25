@@ -28,8 +28,6 @@ function NavBar(){
               <NavDropdown.Item as={NavLink}to="/category/Videojuegos">Videojuegos</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#action2">Ofertas</Nav.Link>
-            <Nav.Link href="#action3">Lanzamientos</Nav.Link>
-            <Nav.Link href="#action4">Ayuda</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
