@@ -27,19 +27,9 @@ function NavBar(){
               <NavDropdown.Item as={NavLink}to="/category/Electrodomesticos">Electrodomésticos</NavDropdown.Item>
               <NavDropdown.Item as={NavLink}to="/category/Videojuegos">Videojuegos</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#action2">Ofertas</Nav.Link>
+            <CartWidget/>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="¿Qué producto buscas?"
-              className="me-2"
-              aria-label="Buscar"
-            />
-            <Button variant="outline-warning"><img src={lupa} alt="Buscar"/></Button>
-          </Form>
         </Navbar.Collapse>
-        <CartWidget/>
       </Container>
     </Navbar>
     )

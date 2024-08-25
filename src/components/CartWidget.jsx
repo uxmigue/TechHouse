@@ -9,9 +9,9 @@ function CartWidget() {
     const {items} = useContext(CartContext);
 
     return(
-        <Link to="/checkout" className="d-flex">
+        <Link to="/checkout" className="mx-3 d-flex justify-content-end">
             <img src={carritoDeCompra} alt="Carrito de compra" className="ms-2"/>
-            <Badge bg="secondary mx-2">{items.reduce((total, item) => { return total + item.quantity },0)}</Badge>
+            <Badge className="bg-secondary mx-2">{items.reduce((total, item) => { return total + item.quantity },0)}</Badge>
         </Link>
     )
 }
